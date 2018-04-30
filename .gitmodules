@@ -1,6 +1,6 @@
 [submodule "snippets"]
         path = snippets
-        url = https://github.com/AndreaCrotti/yasnippet-snippets.git
+        url = https://github.com/sonictk/yasnippet-snippets.git
         branch = master
 [submodule "yasmate"]
         path = yasmate
