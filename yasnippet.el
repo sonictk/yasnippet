@@ -163,7 +163,8 @@
 Yasnippet no longer comes with installed snippets" "0.14")
 
 (defconst yas--default-user-snippets-dir
-  (expand-file-name "snippets" user-emacs-directory))
+  ;(expand-file-name "snippets" user-emacs-directory))
+  (expand-file-name "snippets" (file-name-directory load-file-name)))
 
 (defcustom yas-snippet-dirs (list yas--default-user-snippets-dir)
   "List of top-level snippet directories.
